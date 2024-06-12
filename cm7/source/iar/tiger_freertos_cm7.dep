@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>2652373199</fileChecksum>
+    <configuration>
+        <name>flexspi_nor_sdram_debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_sdram_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>sdram_debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\board\xmcd.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\core_cm7.h</file>
+            <file>$PROJ_DIR$\..\..\components\silicon_id\fsl_silicon_id.c</file>
+            <file>$PROJ_DIR$\..\..\board\mipi_dsi_aux.c</file>
+            <file>$PROJ_DIR$\..\..\device\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\..\..\board\dcd.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_port_internal.h</file>
+            <file>$PROJ_DIR$\..\..\board\vglite_support.c</file>
+            <file>$PROJ_DIR$\..\..\components\uart\fsl_adapter_lpuart.c</file>
+            <file>$PROJ_DIR$\..\..\components\uart\fsl_adapter_uart.h</file>
+            <file>$PROJ_DIR$\..\..\device\MIMXRT1176_cm7_features.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\cachel1_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\board\mipi_dsi_aux.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\components\lists\fsl_component_generic_list.c</file>
+            <file>$PROJ_DIR$\..\..\board\board.c</file>
+            <file>$PROJ_DIR$\..\..\board\xmcd.c</file>
+            <file>$PROJ_DIR$\..\..\board\display_support.h</file>
+            <file>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_manager.h</file>
+            <file>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_port_uart.c</file>
+            <file>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_port_uart.h</file>
+            <file>$PROJ_DIR$\..\..\components\lists\fsl_component_generic_list.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\components\silicon_id\fsl_silicon_id.h</file>
+            <file>$PROJ_DIR$\..\..\board\vglite_support.h</file>
+            <file>$PROJ_DIR$\..\..\device\system_MIMXRT1176_cm7.c</file>
+            <file>$PROJ_DIR$\..\..\board\clock_config.h</file>
+            <file>$PROJ_DIR$\..\..\board\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\board\display_support.c</file>
+            <file>$PROJ_DIR$\..\..\board\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\board\board.h</file>
+            <file>$PROJ_DIR$\..\..\board\pin_mux.h</file>
+            <file>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_manager.c</file>
+            <file>$PROJ_DIR$\..\..\board\dcd.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_soc_src.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_mipi_dsi.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_pmu.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_soc_mipi_csi2rx.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\freertos_tasks_c_additions.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\portable.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\list.h</file>
+            <file>$PROJ_DIR$\..\..\device\system_MIMXRT1176_cm7.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_dcdc.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_mu.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_soc_mipi_csi2rx.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\queue.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_dcdc.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_elcdif.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_anatop_ai.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_cache.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_common_arm.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_lcdifv2.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_anatop_ai.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_mipi_dsi.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_pmu.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_soc_src.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\event_groups.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_elcdif.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\semphr.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_lcdifv2.c</file>
+            <file>$PROJ_DIR$\..\..\device\MIMXRT1176_cm7.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_common_arm.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\task.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_mu.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\croutine.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\projdefs.h</file>
+            <file>$PROJ_DIR$\..\..\drivers\fsl_lpuart.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\rle_font_read.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_kerning.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_scaledfont.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\stream_buffer.c</file>
+            <file>$PROJ_DIR$\..\..\startup\iar\startup_MIMXRT1176_cm7.s</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_rlefont.c</file>
+            <file>$PROJ_DIR$\..\..\mcmgr\mcmgr_internal_core_api_imxrt1170.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\..\..\mcmgr\mcmgr_mu_internal.c</file>
+            <file>$PROJ_DIR$\..\..\source\vglite_window.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_justify.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLite\rtos\vg_lite_os.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\vft_debug.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\queue.c</file>
+            <file>$PROJ_DIR$\..\tiger_paths.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\timers.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_encoding.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_font.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_kerning.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\include\timers.h</file>
+            <file>$PROJ_DIR$\..\..\mcmgr\mcmgr.h</file>
+            <file>$PROJ_DIR$\..\..\source\vglite_window.h</file>
+            <file>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_justify.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_scaledfont.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\buf_reader.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\fonts.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_wordwrap.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portmacro.h</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\..\tiger_freertos.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\croutine.c</file>
+            <file>$PROJ_DIR$\..\..\mcmgr\mcmgr_internal_core_api.h</file>
+            <file>$PROJ_DIR$\..\..\mcmgr\mcmgr.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\list.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\..\..\utilities\str\fsl_str.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mcufont.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_bwfont.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_encoding.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_font.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_wordwrap.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLite\rtos\vg_lite_os.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_config.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_rlefont.h</file>
+            <file>$PROJ_DIR$\..\..\board\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_bwfont.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\buf_reader.c</file>
+            <file>$PROJ_DIR$\..\..\freertos\freertos_kernel\tasks.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite_path.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\vft_draw.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\inc\vg_lite_hal.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\vft_debug.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite_image.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLiteKernel\vg_lite_hw.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\dsi_cmd\fsl_dc_fb_dsi_cmd.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\mipi_dsi_cmd\fsl_mipi_dsi_cmd.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLiteKernel\rtos\vg_lite_platform.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\fsl_display.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\lcdifv2\fsl_dc_fb_lcdifv2.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\rm68191\fsl_rm68191.h</file>
+            <file>$PROJ_DIR$\..\..\video\fsl_video_common.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLiteKernel\vg_lite_kernel.h</file>
+            <file>$PROJ_DIR$\..\..\xip\evkmimxrt1170_flexspi_nor_config.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\rm67162\fsl_rm67162.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\hx8394\fsl_hx8394.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\mipi_dsi_cmd\fsl_mipi_dsi_cmd.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite_matrix.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\lcdifv2\fsl_dc_fb_lcdifv2.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\fbdev\fsl_fbdev.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\rm67162\fsl_rm67162.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\inc\vg_lite_text.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLiteKernel\rtos\vg_lite_hal.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\elcdif\fsl_dc_fb_elcdif.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\rm68200\fsl_rm68200.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\elcdif\fsl_dc_fb_elcdif.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\rm68200\fsl_rm68200.h</file>
+            <file>$PROJ_DIR$\..\..\xip\evkmimxrt1170_flexspi_nor_config.h</file>
+            <file>$PROJ_DIR$\..\..\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\fbdev\fsl_fbdev.h</file>
+            <file>$PROJ_DIR$\..\..\video\display\hx8394\fsl_hx8394.c</file>
+            <file>$PROJ_DIR$\..\..\xip\fsl_flexspi_nor_boot.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_dc_fb_lcdifv2.o</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\vft_draw.c</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_dc_fb_elcdif.o</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\fsl_dc_fb.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_rm67162.o</file>
+            <file>$PROJ_DIR$\..\..\vglite\font\vg_lite_text.c</file>
+            <file>$PROJ_DIR$\..\..\vglite\inc\vg_lite.h</file>
+            <file>$PROJ_DIR$\..\..\vglite\VGLiteKernel\vg_lite_kernel.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\rm68191\fsl_rm68191.c</file>
+            <file>$PROJ_DIR$\..\..\video\display\dc\dsi_cmd\fsl_dc_fb_dsi_cmd.c</file>
+            <file>$PROJ_DIR$\..\..\video\fsl_video_common.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\xip\evkmimxrt1170_flexspi_nor_config.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\mcmgr\mcmgr_internal_core_api_imxrt1170.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_dc_fb_dsi_cmd.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_elcdif.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_dcdc.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\component\serial_manager\fsl_component_serial_manager.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\xmcd.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_encoding.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\board.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_common_arm.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_rm68200.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_scaledfont.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\source\tiger_freertos.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_rm68191.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\vft_debug.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_mipi_dsi.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_video_common.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\buf_reader.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\display_support.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\mcmgr\mcmgr.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_common.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\component\uart\fsl_adapter_lpuart.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLiteKernel\vg_lite_kernel.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_mipi_dsi_cmd.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\utilities\fsl_str.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLite\rtos\vg_lite_os.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_soc_src.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\rle_font_read.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\croutine.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\event_groups.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLite\vg_lite_image.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_clock.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\component\serial_manager\fsl_component_serial_port_uart.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_bwfont.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\pin_mux.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_kerning.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\component\silicon_id\fsl_silicon_id.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLite\vg_lite.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\device\system_MIMXRT1176_cm7.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\dcd.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_hx8394.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_cache.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\vg_lite_text.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\portable\MemMang\heap_4.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\component\lists\fsl_component_generic_list.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLite\vg_lite_matrix.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\utilities\fsl_assert.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_soc_mipi_csi2rx.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_rlefont.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\vglite_support.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_mu.o</file>
+            <file>$PROJ_DIR$\sdram_debug\tiger_freertos_cm7.out</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\utilities\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\list.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_anatop_ai.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLite\vg_lite_path.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_pmu.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\mipi_dsi_aux.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\board\clock_config.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\tasks.o</file>
+            <file>$PROJ_DIR$\..\..\cm4\iar\Debug\mipi_dcs_cm4.bin</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_font.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\xip\fsl_flexspi_nor_boot.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\mcmgr\mcmgr_mu_internal.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\timers.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\queue.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\startup\iar\startup_MIMXRT1176_cm7.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\stream_buffer.o</file>
+            <file>$PROJ_DIR$\MIMXRT1176xxxxx_cm7_sdram.icf</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\VGLiteKernel\rtos\vg_lite_hal.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\video\fsl_fbdev.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\source\vglite_window.o</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\vft_draw.o</file>
+            <file>$PROJ_DIR$\sdram_debug\list\tiger_freertos_cm7.map</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_wordwrap.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\drivers\fsl_lcdifv2.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\sdram_debug\obj\vglite\font\mcufont\decoder\mf_justify.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\components\silicon_id\fsl_silicon_id.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\mipi_dsi_aux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 247</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 40 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\vglite_support.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 44 134 83 47 67 113 264 234 46 77 48 179 147 18 176 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\components\uart\fsl_adapter_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 10 44 134 83 47 67 113 264 234 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\components\lists\fsl_component_generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 107 19 21 10 44 134 83 47 67 113 264 234 46 291 33 27 78 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\xmcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 255 254 288 261 272 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 21 10 44 134 83 47 67 113 264 234 46 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\device\system_MIMXRT1176_cm7.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 255 254 288 261 272 273 4 74 1 14 6 30 281 23 12 49 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 42 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\display_support.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 176 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 78 40 34 33 27 107 19 21 10 44 134 83 47 67 113 264 234 46 291 145 146 148 154 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 42 56 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\components\serial_manager\fsl_component_serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 282 254 288 261 272 273 289 258 19 80 253 279 255 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 21 10 44 134 83 47 67 113 264 234 46 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\board\dcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 255 254 288 261 272 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_dcdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_soc_mipi_csi2rx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_elcdif.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_anatop_ai.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_mipi_dsi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_soc_src.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_lcdifv2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 286</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_common_arm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 41 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\drivers\fsl_mu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\rle_font_read.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126 132 255 254 288 261 272 273 128 95 133 102 279 103 87 112 284 289 282 258 270 251 44 266 134 83 47 67 113 264 281 234 46 179 110 162 140 142</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_kerning.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103 132 255 254 288 261 272 273 133 102 128 279</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 255 254 288 261 272 273 282 289 258 44 266 134 83 47 67 113 264 281 234 46 77 48 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\startup\iar\startup_MIMXRT1176_cm7.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 265</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_rlefont.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133 102 128 132 255 254 288 261 272 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\mcmgr\mcmgr_internal_core_api_imxrt1170.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 279 255 254 288 261 272 273 119 4 74 1 14 6 30 281 23 12 49 11 51 80 253 282 289 258 270 251 266 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 283</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 134</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\mcmgr\mcmgr_mu_internal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 74 1 255 254 288 261 272 273 14 6 30 281 23 12 49 11 51 80 253 279 282 289 258 270 251 266 60 54 105 119</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\source\vglite_window.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 274</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 44 134 83 47 67 113 264 234 46 77 48 147 106 179 18 176 183 170 71 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\vft_debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284 254 288 261 272 273 289 270 251 162 179 266 255 140 142</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 263</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 254 288 261 272 273 289 251 282 258 44 266 255 134 83 47 67 113 264 281 234 46 77 48 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 254 288 261 272 273 289 251 44 266 255 134 83 47 67 113 264 281 234 46 77 48 53 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_encoding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128 132 255 254 288 261 272 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_justify.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 290</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95 133 102 128 132 255 254 288 261 272 273 279 103</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_scaledfont.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 102 128 132 255 254 288 261 272 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 254 288 261 272 273 289 251 44 266 255 134 83 47 67 113 264 281 234 46 77 48 104 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\tiger_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 266 254 288 261 272 273 289 255 134 83 47 67 113 264 281 234 46 77 48 107 80 253 279 282 258 270 251 4 74 1 14 6 30 23 12 49 11 60 54 19 21 10 291 34 33 27 78 25 106 179 18 176 183 170 71 53 99 38 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260 254 288 261 272 273 229 291 270 289 251 287 125 80 253 279 255 282 258 266 4 74 1 14 6 30 281 23 12 49 11 60 54 124</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 254 288 261 272 273 289 251 44 266 255 134 83 47 67 113 264 281 234 46 77 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 266 254 288 261 272 273 289 255 134 83 47 67 113 264 281 234 46 77 48 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\mcmgr\mcmgr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284 254 288 261 272 273 289 105 279 255 119</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 254 288 261 272 273 289 251 44 266 255 134 83 47 67 113 264 281 234 46 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 107 19 21 10 44 134 83 47 67 113 264 234 46 291</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 291 270 254 288 261 272 273 289 251 44 266 255 134 83 47 67 113 264 281 234 46 71 53 77 48 124 80 253 279 282 258 4 74 1 14 6 30 23 12 49 11 60 54 125 19 21 10 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_font.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102 128 132 255 254 288 261 272 273 279 111</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_wordwrap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 278</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 133 102 128 132 255 254 288 261 272 273 279</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLite\rtos\vg_lite_os.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96 255 254 288 261 272 273 44 266 289 134 83 47 67 113 264 281 234 46 71 53 77 48 144 141 147 270 251 152</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\mcufont\decoder\mf_bwfont.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127 102 128 132 255 254 288 261 272 273 279</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 264 281 288 261 272 273 234 44 266 254 289 255 134 83 47 67 113 46 77 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\buf_reader.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 284 254 288 261 272 273 289 282 258</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\freertos\freertos_kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 249</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 254 288 261 272 273 289 251 282 258 44 266 255 134 83 47 67 113 264 281 234 46 77 48 104 72 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite_path.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 266 254 288 261 272 273 289 270 251 282 258 284 179 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite_image.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 282 254 288 261 272 273 289 258 179 266 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\dc\lcdifv2\fsl_dc_fb_lcdifv2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158 176 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 62 44 134 83 47 67 113 264 234 46 77 48 107 19 21 10 291</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\fsl_video_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 44 134 83 47 67 113 264 234 46 77 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\xip\evkmimxrt1170_flexspi_nor_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 168 255 254 288 261 272 273 279 80 253 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\mipi_dsi_cmd\fsl_mipi_dsi_cmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite_matrix.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260 254 288 261 272 273 229 282 289 258 179 266 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\fbdev\fsl_fbdev.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 176 44 134 83 47 67 113 264 234 46 71 53 77 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\rm67162\fsl_rm67162.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 154 146 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLite\vg_lite.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284 254 288 261 272 273 289 270 251 282 258 255 266 260 229 179 152 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLiteKernel\rtos\vg_lite_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 269</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147 255 254 288 261 272 273 270 289 251 152 96 141 144 44 266 134 83 47 67 113 264 281 234 46 71 53 77 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\dc\elcdif\fsl_dc_fb_elcdif.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166 176 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\rm68200\fsl_rm68200.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 167 146 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 256</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172 255 254 288 261 272 273 80 253 279 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 33 27 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\hx8394\fsl_hx8394.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 155 146 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\vft_draw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 275</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284 254 288 261 272 273 289 270 251 282 258 179 266 255 162 140 142 44 134 83 47 67 113 264 281 234 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\font\vg_lite_text.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 230</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 179 266 254 288 261 272 273 289 255 162 284 282 258 126 132 128 95 133 102 279 103 87 112 140</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\vglite\VGLiteKernel\vg_lite_kernel.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147 255 254 288 261 272 273 270 289 251 152 96 141 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\rm68191\fsl_rm68191.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 150 146 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\video\display\dc\dsi_cmd\fsl_dc_fb_dsi_cmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145 176 183 80 253 254 288 261 272 273 279 255 282 289 258 270 251 266 4 74 1 14 6 30 281 23 12 49 11 60 54 146 40 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdram_debug\tiger_freertos_cm7.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 276</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 268 250 219 193 203 248 214 226 204 215 184 207 244 235 228 217 206 195 232 189 218 186 175 173 188 242 187 271 256 194 227 286 191 201 209 240 246 177 199 196 223 236 212 210 202 231 243 205 185 257 220 192 252 290 222 237 197 278 247 221 239 283 263 213 265 267 225 249 198 262 200 275 224 269 216 208 233 211 245 230 238 274 190 259 277 285 280</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 241 276</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>sdram_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

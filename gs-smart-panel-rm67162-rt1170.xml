@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="gs-smart-panel-rm67162-rt1170" type="general_sw" format="projectfile" versionSchema="1.0.0" name="smart-panel-rm67162-rt1170">
+    <display_title>
+        Display on rm67162 smart panel by vglite, driven by dual core.
+    </display_title>
+    <overview>
+        <![CDATA[This software displays a tiger on the smart lcd panel rm67162, in which the primary core uses vglite to draw contents and the secondary core sends image data to the panel.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+        <toolchain name="iar"></toolchain>
+    </toolchains>
+    <families>
+        <family name="imxrt"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1170-EVKB"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_g1120b0mipi"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="video"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+    </categories>
+</data:item>

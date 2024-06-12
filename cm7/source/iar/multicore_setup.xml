@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sessionSetup><partner><name>Partner0</name><workspace>$WS_PATH$</workspace><project>$PROJ_PATH$</project><config>sdram_debug</config><numberOfCores>1</numberOfCores></partner><partner><name>Partner1</name><workspace>$PROJ_DIR$\..\..\..\cm4\source\iar\mipi_dcs_cm4.eww</workspace><project>mipi_dcs_cm4</project><config>debug</config><numberOfCores>1</numberOfCores><attachToRunningTarget>false</attachToRunningTarget></partner></sessionSetup>
